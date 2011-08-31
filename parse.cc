@@ -138,7 +138,7 @@ void parseLine(std::string line, RequestData_t &reqData)
         }
         else if (line[n] == '"' || line[n] == '[' || line[n] == ']')
         {
-            // mame uvozovky, otebreme nebo uzavreme retezec
+            // mame uvozovky, otevreme nebo uzavreme retezec
             inQuotes = !inQuotes;
         }
         else
